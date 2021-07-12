@@ -1,0 +1,35 @@
+body {
+    margin-bottom: 5rem;
+}
+
+body.error-section_visible {
+    margin-bottom: 12rem;
+}
+
+section > h2 > a {
+    display: block;
+}
+
+.problem__problem-input,
+.problem__solution-input {
+    width: 20rem;
+    height: 5rem;
+}
+
+.problem__problem-input + .problem__solution-input {
+    margin-left: 2rem;
+}
+
+.errors-section {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    position: fixed;
+
+    background: #fafafa;
+}
+
+.error-section_visible .errors-section {
+    height: 10rem;
+}
